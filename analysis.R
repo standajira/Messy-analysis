@@ -13,7 +13,8 @@ forest_raw_data <- read.csv(here::here("Data/input/forest_inventory_data.csv"))
 environmental_measurements_raw <- read.csv(here::here("environmental_measurements_backup_old.csv"))
 
 # Quick check
-print(dim(trees))
+print(dim(forest_raw_data))
+print(dim(environmental_measurements_raw))
 
 # Calculating average DBH and Height
 average_DBH_cm <- mean(trees$dbh_cm)
