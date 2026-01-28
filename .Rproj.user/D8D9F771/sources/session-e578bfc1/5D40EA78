@@ -5,22 +5,22 @@
     "type": "r_source",
     "hash": "0",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1769609117594.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "34,0",
-        "scrollLine": "29"
+        "cursorPosition": "37,68",
+        "scrollLine": "28"
     },
     "folds": "",
-    "lastKnownWriteTime": 1769609991,
+    "lastKnownWriteTime": 1769610206,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1769609991062,
+    "last_content_update": 1769610218828,
     "read_only": false,
     "read_only_alternatives": []
 }

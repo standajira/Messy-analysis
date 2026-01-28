@@ -34,10 +34,9 @@ trees_environmental_data_merged <-
   dplyr::summarise(trees_mutated, environmental_measurements_raw)
 
 # Calculate volume (using simplified formula)
-# V = BA * H * form_factor (assuming 0.5)
-trees$volume <- trees$ba * trees$height_m * 0.5
 
-
+trees_environmental_data_merged<-trees_environmental_data_merged %>%
+  dplyr::mutate(volume = trees_environmental_data_merged$ba * trees_environmental_data_merged*avgerage_trees_height_m*0.5)
 
 
 # Some summary stats
