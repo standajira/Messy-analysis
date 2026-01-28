@@ -56,3 +56,15 @@ write.csv(PlotSummary, "plot_summary_stats.csv")
 plot(trees$dbh_cm, trees$height_m)
 
 print("Analysis complete!")
+
+library(usethis)
+usethis::use_github()
+
+
+
+
+
+##tryout
+
+
+
